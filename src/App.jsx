@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <h1>練習用のアプリです</h1>
+      <p>グラフィカルにコミット</p>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
